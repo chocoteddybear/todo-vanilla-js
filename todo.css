@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  max-width: 640px;
+  box-sizing: border-box;
+}
+
+.inputForm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputText {
+  border: 1px solid #e8e8e8;
+  padding: 10px;
+  min-width: 200px;
+  width: 100%;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.inputButton {
+  border: 1px solid #e8e8e8;
+  width: 40%;
+  background-color: #e8e8e8;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.inputButton:hover {
+  background-color: #bdbdbd;
+}
+
+.list {
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+.list.complete .completeButton i {
+  color: rgba(0, 128, 0, 0.6);
+}
+
+.listItem {
+  margin: 20px 0;
+  display: flex;
+}
+
+.listItem .todoText {
+  border: 1px solid #e8e8e8;
+  padding: 10px;
+  display: flex;
+  width: 100%;
+}
+
+.listItem .buttonWrap {
+  display: flex;
+  width: 40%;
+}
+
+.listItem .buttonWrap .removeButton {
+  border: 1px solid #e8e8e8;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.listItem .buttonWrap .removeButton:hover i {
+  color: rgba(255, 0, 0, 1);
+}
+
+.listItem .buttonWrap .completeButton {
+  border: 1px solid #e8e8e8;
+  width: 100%;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.listItem .buttonWrap .completeButton:hover i {
+  color: rgba(0, 128, 0, 0.6);
+}
