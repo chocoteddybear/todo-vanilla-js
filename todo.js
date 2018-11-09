@@ -61,8 +61,3 @@ function addItem(text) {
   const list = document.getElementById("todo");
   list.insertBefore(listItem, list.childNodes[0]);
 }
-
-const nums = [1, 2, 3, 4, 5];
-const reducer = (previousNum, currentNum) => previousNum + currentNum;
-
-console.log(nums.reduce(reducer));
